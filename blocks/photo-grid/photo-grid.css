@@ -1,10 +1,8 @@
 .photo-grid {
-    width: 1184px;
-    margin-left: 48px;
-    margin-right: 48px;
+    max-width: 1184px;
+    margin:0 auto;
     box-sizing: border-box;
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(4, minmax(284px, 1fr));
     grid-template-rows: repeat(3, minmax(213px, 1fr));
     grid-gap: 16px;
