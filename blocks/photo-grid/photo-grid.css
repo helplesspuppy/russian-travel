@@ -8,3 +8,19 @@
     grid-gap: 16px;
 }
 
+@media screen and (max-width: 1025px) {
+    .photo-grid {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: repeat(4, minmax(225px, 1fr));
+    grid-gap: 14px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .photo-grid {
+    grid-template-columns: repeat(2, minmax(352px, 1fr));
+    grid-template-rows: repeat(6, minmax(264px, 1fr));
+    grid-gap: 16px;
+    }
+}
+

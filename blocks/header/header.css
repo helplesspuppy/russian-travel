@@ -4,3 +4,9 @@
     display:flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1025px) {
+    .header {
+        padding-bottom: 48px;
+    }
+}
