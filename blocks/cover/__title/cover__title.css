@@ -1,7 +1,8 @@
-.place__title {
+.cover__title {
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
+text-align: center;
 color: #FFFFFF;
 margin: 0;
 }

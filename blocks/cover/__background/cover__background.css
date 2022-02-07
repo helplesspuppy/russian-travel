@@ -1,0 +1,31 @@
+.cover__background {
+    background-image: url(../../../Images/sprint-3-images/cover-trains.jpg);
+    width: 100%;
+    background-size: cover;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 740px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__background::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    background-color: #2A2C2F;
+    opacity: .3;
+    transition:opacity .5s ease;
+} 
+
+.cover__background:hover::before {
+    opacity: .8;
+}
+
