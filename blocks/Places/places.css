@@ -9,3 +9,10 @@
         margin-right: 48px;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .places {
+        padding-left:24px;
+        padding-right: 24px;
+    }
+}

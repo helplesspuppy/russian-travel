@@ -8,3 +8,10 @@ line-height: 104%;
 text-align: center;
 color: #FFFFFF;
 }
+
+@media screen and (max-width: 769px) {
+    .lead__title {
+        padding-left:24px;
+        padding-right: 24px;
+    }
+}

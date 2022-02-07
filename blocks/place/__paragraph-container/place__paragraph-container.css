@@ -1,3 +1,9 @@
 .place__paragraph-container {
     margin: 0;
 }
+
+@media screen and (max-width: 769px) {
+    .place__paragraph-container {
+        margin-bottom: 8px;
+    }
+}

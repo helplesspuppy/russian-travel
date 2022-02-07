@@ -2,6 +2,18 @@
     width: 100%;
     display: grid;
     grid-template-columns: minmax(460px, 1fr) 1fr;
-    gap:32px 48px;
+    gap:40px 48px;
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1025px) {
+    .place {
+        gap:32px 48px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .place {
+        gap: 28px 48px;
+    }
 }
