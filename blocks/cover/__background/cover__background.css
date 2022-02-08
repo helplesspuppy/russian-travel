@@ -29,3 +29,9 @@
     opacity: .8;
 }
 
+@media screen and (max-width:426px) {
+    .cover__background {
+        min-height: 200px;
+    } 
+}
+

@@ -6,3 +6,11 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 426px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 48px;
+    }
+}

@@ -29,5 +29,6 @@ width: 640px;
         padding-right: 16px;
         padding-top: 16px;
         padding-bottom: 40px;
+        max-width: 288px;
     }
 }
