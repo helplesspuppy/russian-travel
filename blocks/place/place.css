@@ -6,6 +6,10 @@
     margin-bottom: 80px;
 }
 
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1025px) {
     .place {
         gap:32px 48px;
@@ -16,6 +20,7 @@
     .place {
         gap: 28px 48px;
         grid-template-columns: minmax(340px, 1fr) 1fr;
+        margin-bottom: 72px;
     }
 }
 
@@ -23,5 +28,6 @@
     .place {
         gap: 32px ;
         grid-template-columns: minmax(288px, 320px);
+        margin-bottom: 50px;
     }
 }
