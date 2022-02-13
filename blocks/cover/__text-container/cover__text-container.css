@@ -1,6 +1,6 @@
 .cover__text-container {
     display: flex;
-    width: 560px;
+    max-width: 560px;
     flex-direction: column;
     align-items: center;
     position: relative;

@@ -29,6 +29,18 @@
     opacity: .8;
 }
 
+@media screen and (max-width:1025px) {
+    .cover__background {
+        min-height: 640px;
+    } 
+}
+
+@media screen and (max-width:769px) {
+    .cover__background {
+        min-height: 480px;
+    } 
+}
+
 @media screen and (max-width:426px) {
     .cover__background {
         min-height: 200px;
